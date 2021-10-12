@@ -10,7 +10,7 @@ jobs:
   test-notify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/github-script@v5
+      - uses: actions/github-script@v4
         with:
           script: |
             const query = `
